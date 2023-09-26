@@ -172,7 +172,7 @@ app.post("/ifttt/v1/triggers/sos_alert", checkServiceKey, async (req, res) => {
   return res.status(200).json({ data: myData.reverse() });
 });
 
-app.post("/ifttt/v1/queries/list_all_things", checkServiceKey, (req, res) => {
+app.post("/ifttt/v1/queries/list_of_lights", checkServiceKey, (req, res) => {
   return res.status(200).json({
     data: [
       {
