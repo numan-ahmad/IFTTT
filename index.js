@@ -18,7 +18,7 @@ const auth0Config = {
   audience: "ifttt-airbolt-app", // Replace with your Auth0 API Identifier
 };
 const IFTTT_SERVICE_KEY =
-  "HCHrAO48Id7QcRUn7Wd8PkX4GgYSTteUuB2Kqaw1XJtYzZKEn1CTP87DFfNYRV_T";
+  "cx6wrwV9lzzZ7-62xgmoKXdPzeoQ6Uld0hcZs6GCqtxI-Ib8dcDGNFE8O3IQ8ISP";
 
 const checkServiceKey = (req, res, next) => {
   const IFTTT_Service_Key = req.header("IFTTT-Service-Key");
